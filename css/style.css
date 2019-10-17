@@ -1,0 +1,74 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+/* Components */
+@import url("components/buttons.css");
+@import url("components/banner.css");
+@import url("components/container.css");
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+/* Custom design below! */
+.text-center {
+  text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card:hover {
+  box-shadow: 0px 15px 20px #f26273;
+  transform: translateY(-7px);
+}
+
+.card img {
+    height: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #d72137;
+}

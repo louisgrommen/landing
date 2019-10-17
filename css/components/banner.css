@@ -1,0 +1,17 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media.giphy.com/media/LCdPNT81vlv3y/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    color: white;
+}
+
+.banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
